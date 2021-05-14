@@ -1,0 +1,22 @@
+Dear Mohammed,
+
+If you don't want to commit a file name myfile.txt for example. you need to do the following steps
+
+* open gitbash command prompt in the project directory
+
+* do the following commands
+
+> touch .gitignore
+> echo "myfile.txt" > .gitignore
+> cat .gitignore
+touch will create a new file (.gitignore)
+
+echo put `myfile.txt` word into the .gitingore file
+
+cat is used to make sure that the contents of the .gitignore is `myfile.txt`
+
+It will be matched at any file directory location. No need to define the file path.
+
+Good luck
+
+Osama
